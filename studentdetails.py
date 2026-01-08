@@ -1,4 +1,3 @@
-# student_grade.py
 # Program to calculate student grade
 import sys
 
