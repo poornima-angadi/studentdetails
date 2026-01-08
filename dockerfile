@@ -1,5 +1,5 @@
-FROM python:3.13.7
-WORKDIR /enquiry
+FROM python:3.13.7-slim
+WORKDIR / studentdetails
 COPY . .
 RUN pip install --no-cache-dir pytest
 # Run tests at build time (CI)
